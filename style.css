@@ -1,0 +1,140 @@
+body {
+    background-color: #eef1f6;
+    font-weight: 500;
+    font-family: Gilroy-Black, sans-serif;
+}
+
+.ident {
+    margin-left: 164px;
+    max-width: 1440px;
+    max-height: 900px;
+}
+
+.header__logo {
+    margin-top: 36px;
+    margin-bottom: 110px;
+}
+
+.input-photo {
+    height: 0;
+    width: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    gap: 70px;
+}
+
+.custom-index {
+    display: inline-grid;
+    background: white;
+    width: 540px;
+    height: 56px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border: 2px solid #E3E7ED;
+}
+
+.custom-index__size {
+    cursor: pointer;
+    color: #AAB0B3;
+    padding-top: 17px;
+    padding-bottom: 16px;
+    padding-left: 26px;
+    border-radius: 16px;
+}
+
+.custom-index__size:focus-within {
+    box-shadow: 0px 0px 0px 3px rgba(62, 171, 255, 0.99);
+}
+
+
+.input-folder-icon {
+    margin-left: 350px;
+}
+
+.main-menu {
+    margin-top: 12px;
+    width: 540px;
+    height: 169px;
+    border: 2px solid #E1E7EB;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.main-menu__userText {
+    background-color: white;
+    width: 486px;
+    height: 79px;
+    padding-left: 22px;
+    padding-top: 22px;
+    padding-right: 30px;
+    outline: white;
+    font-size: 16px;
+    border-radius: 16px;
+    border: none;
+}
+
+.main-menu__userText:focus{
+    box-shadow: 0px 0px 0px 3px rgba(62, 171, 255, 0.99);
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+
+.main-menu__userText::placeholder {
+    color: #AAB0B3;
+}
+
+.main-buttons {
+    border-top: 2px solid #E3E7ED;
+}
+
+.main-button {
+    display: flexbox;
+    background: none;
+    outline: white;
+    border: none;
+    color: #AAB0B3;
+    font-size: 16px;
+    height: 62px;
+}
+
+.b-clear {
+    width: 129px;
+    padding-left: 16px;
+    padding: 0px;
+    border-right: 2px solid #E3E7ED;
+}
+
+.b-clear:focus{
+    box-shadow: 0px 0px 0px 3px rgba(62, 171, 255, 0.99);
+    border-radius: 0px;
+    border-bottom-left-radius: 16px;
+}
+
+.b-download {
+    padding-left: 16px;
+    width: 113px;
+    border-right: 2px solid #E3E7ED;
+}
+
+.b-download:focus{
+    box-shadow: 0px 0px 0px 3px rgba(62, 171, 255, 0.99);
+    border-radius: 0px;
+}
+
+.b-upload {
+    margin-left: 178px;
+    width: 111px;
+}
+
+.b-upload:focus{
+    box-shadow: 0px 0px 0px 3px rgba(62, 171, 255, 0.99);
+    border-radius: 0px;
+    border-bottom-right-radius: 16px;
+}
